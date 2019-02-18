@@ -10,6 +10,4 @@ int main()
     cout << str.getString() << endl;
     cout << std_str;
     return 0;
-    // a new comment for git test
-    // another comment again
 }
