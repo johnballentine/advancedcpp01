@@ -10,5 +10,5 @@ int main()
     cout << str.getString() << endl;
     cout << std_str;
     return 0;
-    // comment test 3
+    // comment test new test
 }
