@@ -1,16 +1,10 @@
-#ifndef BOXES_MAIN_H
-#define BOXES_MAIN_H
+#ifndef PETS_MAIN_H
+#define PETS_MAIN_H
 
 #include <iostream>
-#include "rectangle.h"
-#include "box.h"
-
+#include <string>
 using namespace std;
+#include "pet.h"
 
 
-void displayRectangle(rectangle*);
-
-void displayBox(box*);
-
-
-#endif //BOXES_MAIN_H
+#endif //PETS_MAIN_H

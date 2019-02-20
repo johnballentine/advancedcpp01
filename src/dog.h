@@ -1,9 +1,9 @@
-#ifndef BOXES_BOX_H
-#define BOXES_BOX_H
+#ifndef PETS_DOG_H
+#define PETS_DOG_H
 
-#include "rectangle.h"
+#include "dog.h"
 
-class box : public rectangle {
+class pet : public dog {
 public:
     box();
     box(int, int, int);
@@ -29,4 +29,4 @@ private:
 };
 
 
-#endif //BOXES_BOX_H
+#endif //PETS_DOG_H

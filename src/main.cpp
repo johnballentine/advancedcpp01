@@ -1,23 +1,11 @@
-#include "./main.h"
+#include "main.h"
+
+string petname = "sparky";
+pet mypet(petname,5);
 
 int main() {
 
-    //creates a rectangle object with no parameters
-    rectangle myRectangle1;
-    //creates a rectangle object with height and width 5x4
-    rectangle myRectangle2(5, 4);
-
-    //creates a box object with no parameters
-    box myBox1;
-    //creates a rectangle object with height and width 5x4
-    box myBox2(5, 4, 6);
-
-    displayRectangle(&myRectangle1);
-    displayRectangle(&myRectangle2);
-
-    displayBox(&myBox1);
-    displayBox(&myBox2);
-
+    cout << "Name is: " << mypet.getName() << ", Age is: " << mypet.getAge();
 
     return 0;
 }
